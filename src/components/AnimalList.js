@@ -5,10 +5,9 @@ import ProgressBar from "./ProgressBar";
 const AnimalsList = () => {
   const [animals, setAnimals] = useState([]);
   const [totalUnits, setTotalUnits] = useState(0);
-  const [end, setEnd] = useState(false);
 
   const handleCountChange = (newVal, operation) => {
-    if (operation == 1) {
+    if (operation === 1) {
       setTotalUnits(totalUnits - newVal);
     } else {
       setTotalUnits(totalUnits + newVal);
