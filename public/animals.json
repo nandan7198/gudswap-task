@@ -1,0 +1,22 @@
+{
+  "animals": [
+    {
+      "id": "1",
+      "name": "Horse",
+      "unitValue": 0.25,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPxpiqRWaPcodousX8gjfUvfWPMDRF_BjRxg&s"
+    },
+    {
+      "id": "2",
+      "name": "Elephant",
+      "unitValue": 0.5,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/08/24/12/11/silhouette-2676573_1280.png"
+    },
+    {
+      "id": "3",
+      "name": "Dragon",
+      "unitValue": 1.0,
+      "imageUrl": "https://th.bing.com/th/id/OIP.C-IrSzjvqqenmFgbLyUk4gHaGI?rs=1&pid=ImgDetMain"
+    }
+  ]
+}

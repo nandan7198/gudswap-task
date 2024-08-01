@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AnimalsList from "./components/AnimalList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-sky-100 h-screen">
+      <div className="h-12 bg-sky-300 text-center text-2xl font-bold pt-2">
+        GudSwap Problem
+      </div>
+      <AnimalsList />
     </div>
   );
 }
